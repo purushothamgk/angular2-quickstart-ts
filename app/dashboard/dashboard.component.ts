@@ -2,16 +2,16 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router-deprecated';
 
 
-import { Hero } from './hero';
-import { HeroService } from './hero.service';
+import { Hero } from '../hero';
+import { HeroService } from '../hero.service';
 
 
 
 
 @Component({
   selector: 'my-dashboard',
-  templateUrl: 'app/dashboard.component.html',
-  styleUrls: ['app/dashboard.component.css']
+  templateUrl: 'app/dashboard/dashboard.component.html',
+  styleUrls: ['app/dashboard/dashboard.component.css']
 
 })
 
